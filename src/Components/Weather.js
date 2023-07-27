@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import WeatherApp from "./WeatherApp";
 import "./weather.css";
 
-
 function Weather() {
   const [weather, setWeather] = useState([]);
   const [form, setForm] = useState({
@@ -57,7 +56,7 @@ function Weather() {
           onChange={(e) => handleChange(e)}
         />
         <button className="getweather" onClick={(e) => weatherData(e)}>
-          Submit
+          Submit This
         </button>
       </form>
 
